@@ -29,7 +29,7 @@ def main():
     """Main process of auto checkin
     """
     # Get log file
-    LOG_DIR = os.path.join(os.path.expanduser("/home/luosangnanka"), 'log')
+    LOG_DIR = os.path.join(os.path.expanduser("/home/hostname"), 'log')
     if not os.path.isdir(LOG_DIR):
         os.makedirs(LOG_DIR)
     LOG_PATH = os.path.join(LOG_DIR, 'xiami_auto_checkin.log')
